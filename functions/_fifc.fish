@@ -36,7 +36,6 @@ function _fifc
             --exit-0 \
             --ansi \
             --tabstop=4 \
-            --multi \
             --reverse \
             --header '$header' \
             --preview '_fifc_action preview {} {q}' \
