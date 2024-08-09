@@ -39,6 +39,7 @@ function _fifc
             --bind tab:down,shift-tab:up \
             --reverse \
             --header '$header' \
+            --height 60% \
             --preview '_fifc_action preview {} {q}' \
             --bind='$fifc_open_keybinding:execute(_fifc_action open {} {q} &> /dev/tty)' \
             --query '$fifc_query' \
